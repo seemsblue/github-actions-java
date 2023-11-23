@@ -14,8 +14,8 @@ public class Fibonacci {
         }
 
         for (int i = 0; i < n; i++) {
-            //System.out.print(fibonacci(i) + " ");
-            int fib = fibonacci(i);
+            //System.out.print(fibonacci(i) + " "); 
+            int fib = fibonacci(i);         //가독성 추가
             System.out.println("fibonacci("+i+")=" +fib);
             System.out.println();
         }
